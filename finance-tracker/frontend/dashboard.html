@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Tracker - Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <span id="username-label">Welcome</span>
+    <button id="logout-btn">Logout</button>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar card">
+      <button data-view="transactions">Transactions</button>
+      <button data-view="budget">Budget</button>
+      <button data-view="analytics">Analytics</button>
+      <button data-view="ai">AI Advisor</button>
+      <button data-view="reports">Reports</button>
+    </aside>
+
+    <main id="content" class="card">
+      <h2>Dashboard</h2>
+      <p>Select an item from the sidebar.</p>
+    </main>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
